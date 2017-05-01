@@ -1,0 +1,442 @@
+                        <div class="post_thumb">
+                            <div class="prc_man">?50,000</div>
+                            <div class="feats1"></div>
+                            <div class="express1"></div>
+                            <div class="thumbnail_image">
+                                <a href="http://jolancer.com/jobs/web-design/ponzi-scheme/"><img class="my_image_thumb" src="http://jolancer.com/wp-content/uploads/2017/03/images1-220x150.jpg" width="100%" height="150" alt="PONZI SCHEME"></a>
+                            </div>
+                            <div class="user_ratings">
+                                <div class="padd10_m">
+                                    <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> (0)
+                                </div>
+                            </div>
+                            <div class="gridview_title">
+                                <div class="padd10_m">
+                                    <a class="grid_view_url_thing" href="http://jolancer.com/jobs/web-design/ponzi-scheme/">PONZI SCHEME</a>
+                                </div>
+                            </div>
+                            <div class="user_and_flag">
+                                <div class="padd10_m">
+                                    by <a href="http://jolancer.com/user-profile/pathneluti/" class="grid_view_url_thing1">pathneluti</a>               &nbsp; &nbsp;
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post_thumb">
+                            <div class="prc_man">?2,000</div>
+                            <div class="feats1"></div>
+                            <div class="thumbnail_image">
+                                <a href="http://jolancer.com/jobs/writing/creative-writing-5/"><img class="my_image_thumb" src="http://jolancer.com/wp-content/uploads/2017/02/jolancer-creative-220x150.jpg" width="100%" height="150" alt="Creative Writing"></a>
+                            </div>
+                            <div class="user_ratings">
+                                <div class="padd10_m">
+                                    <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> (0)
+                                </div>
+                            </div>
+                            <div class="gridview_title">
+                                <div class="padd10_m">
+                                    <a class="grid_view_url_thing" href="http://jolancer.com/jobs/writing/creative-writing-5/">Creative Writing</a>
+                                </div>
+                            </div>
+                            <div class="user_and_flag">
+                                <div class="padd10_m">
+                                    by <a href="http://jolancer.com/user-profile/coldfusion/" class="grid_view_url_thing1">coldfusion</a>               &nbsp; &nbsp;
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post_thumb">
+                            <div class="prc_man">?1,000</div>
+                            <div class="feats1"></div>
+                            <div class="thumbnail_image">
+                                <a href="http://jolancer.com/jobs/writing/article-writing-6/"><img class="my_image_thumb" src="http://jolancer.com/wp-content/uploads/2017/03/article-writing-expert-jolancer-220x150.jpg" width="100%" height="150" alt="Article writing"></a>
+                            </div>
+                            <div class="user_ratings">
+                                <div class="padd10_m">
+                                    <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> (0)
+                                </div>
+                            </div>
+                            <div class="gridview_title">
+                                <div class="padd10_m">
+                                    <a class="grid_view_url_thing" href="http://jolancer.com/jobs/writing/article-writing-6/">Article writing</a>
+                                </div>
+                            </div>
+                            <div class="user_and_flag">
+                                <div class="padd10_m">
+                                    by <a href="http://jolancer.com/user-profile/Whizdhom10/" class="grid_view_url_thing1">Whizdhom10</a>               &nbsp; &nbsp;
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post_thumb">
+                            <div class="prc_man">?2,000</div>
+                            <div class="feats1"></div>
+                            <div class="express1"></div>
+                            <div class="thumbnail_image">
+                                <a href="http://jolancer.com/jobs/mobile/proof-reading/"><img class="my_image_thumb" src="http://jolancer.com/wp-content/uploads/2017/02/proofreading-jolancer-220x150.jpg" width="100%" height="150" alt="Proof reading"></a>
+                            </div>
+                            <div class="user_ratings">
+                                <div class="padd10_m">
+                                    <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> (0)
+                                </div>
+                            </div>
+                            <div class="gridview_title">
+                                <div class="padd10_m">
+                                    <a class="grid_view_url_thing" href="http://jolancer.com/jobs/mobile/proof-reading/">Proof reading</a>
+                                </div>
+                            </div>
+                            <div class="user_and_flag">
+                                <div class="padd10_m">
+                                    by <a href="http://jolancer.com/user-profile/Emmatronic/" class="grid_view_url_thing1">Emmatronic</a>               &nbsp; &nbsp;
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post_thumb">
+                            <div class="prc_man">?40,000</div>
+                            <div class="feats1"></div>
+                            <div class="thumbnail_image">
+                                <a href="http://jolancer.com/jobs/web-design/website-designing/"><img class="my_image_thumb" src="http://jolancer.com/wp-content/uploads/2017/03/pyf-laptop-220x150.png" width="100%" height="150" alt="Website Designing"></a>
+                            </div>
+                            <div class="user_ratings">
+                                <div class="padd10_m">
+                                    <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> (0)
+                                </div>
+                            </div>
+                            <div class="gridview_title">
+                                <div class="padd10_m">
+                                    <a class="grid_view_url_thing" href="http://jolancer.com/jobs/web-design/website-designing/">Website Designing</a>
+                                </div>
+                            </div>
+                            <div class="user_and_flag">
+                                <div class="padd10_m">
+                                    by <a href="http://jolancer.com/user-profile/Contemsolutions/" class="grid_view_url_thing1">Contemsolutions</a>               &nbsp; &nbsp;
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post_thumb">
+                            <div class="prc_man">?3,000</div>
+                            <div class="feats1"></div>
+                            <div class="thumbnail_image">
+                                <a href="http://jolancer.com/jobs/writing/i-specialise-in-writing-articles-business-proposals-typesetting-and-web-content/"><img class="my_image_thumb" src="http://jolancer.com/wp-content/uploads/2017/03/creative-writjolan-220x150.jpg" width="100%" height="150" alt="I specialise in writing articles, business proposals, typesetting and web content."></a>
+                            </div>
+                            <div class="user_ratings">
+                                <div class="padd10_m">
+                                    <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> (0)
+                                </div>
+                            </div>
+                            <div class="gridview_title">
+                                <div class="padd10_m">
+                                    <a class="grid_view_url_thing" href="http://jolancer.com/jobs/writing/i-specialise-in-writing-articles-business-proposals-typesetting-and-web-content/">I specialise in writing articles, business proposals, typesetting and web conten</a>
+                                </div>
+                            </div>
+                            <div class="user_and_flag">
+                                <div class="padd10_m">
+                                    by <a href="http://jolancer.com/user-profile/JIDE/" class="grid_view_url_thing1">JIDE</a>               &nbsp; &nbsp;
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post_thumb">
+                            <div class="prc_man">?2,000</div>
+                            <div class="feats1"></div>
+                            <div class="thumbnail_image">
+                                <a href="http://jolancer.com/jobs/graphics/graphics-design-3-2/"><img class="my_image_thumb" src="http://jolancer.com/wp-content/uploads/2017/03/graphic_ojolancer-ng-design-220x150.jpg" width="100%" height="150" alt="graphics design"></a>
+                            </div>
+                            <div class="user_ratings">
+                                <div class="padd10_m">
+                                    <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> (0)
+                                </div>
+                            </div>
+                            <div class="gridview_title">
+                                <div class="padd10_m">
+                                    <a class="grid_view_url_thing" href="http://jolancer.com/jobs/graphics/graphics-design-3-2/">Graphics design</a>
+                                </div>
+                            </div>
+                            <div class="user_and_flag">
+                                <div class="padd10_m">
+                                    by <a href="http://jolancer.com/user-profile/yunkidez/" class="grid_view_url_thing1">yunkidez</a>               &nbsp; &nbsp;
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post_thumb">
+                            <div class="prc_man">?200</div>
+                            <div class="feats1"></div>
+                            <div class="thumbnail_image">
+                                <a href="http://jolancer.com/jobs/writing/data-entry/"><img class="my_image_thumb" src="http://jolancer.com/wp-content/uploads/2017/02/data-entry-jolancer-220x150.jpg" width="100%" height="150" alt="Data Entry"></a>
+                            </div>
+                            <div class="user_ratings">
+                                <div class="padd10_m">
+                                    <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> (0)
+                                </div>
+                            </div>
+                            <div class="gridview_title">
+                                <div class="padd10_m">
+                                    <a class="grid_view_url_thing" href="http://jolancer.com/jobs/writing/data-entry/">Data Entry</a>
+                                </div>
+                            </div>
+                            <div class="user_and_flag">
+                                <div class="padd10_m">
+                                    by <a href="http://jolancer.com/user-profile/Abdulrazaq/" class="grid_view_url_thing1">Abdulrazaq</a>               &nbsp; &nbsp;
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post_thumb">
+                            <div class="prc_man">?1,000</div>
+                            <div class="feats1"></div>
+                            <div class="thumbnail_image">
+                                <a href="http://jolancer.com/jobs/graphics/logo-designs/"><img class="my_image_thumb" src="http://jolancer.com/wp-content/uploads/2017/03/logo-design-jolancer-220x150.png" width="100%" height="150" alt="Logo designs"></a>
+                            </div>
+                            <div class="user_ratings">
+                                <div class="padd10_m">
+                                    <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> (0)
+                                </div>
+                            </div>
+                            <div class="gridview_title">
+                                <div class="padd10_m">
+                                    <a class="grid_view_url_thing" href="http://jolancer.com/jobs/graphics/logo-designs/">Logo designs</a>
+                                </div>
+                            </div>
+                            <div class="user_and_flag">
+                                <div class="padd10_m">
+                                    by <a href="http://jolancer.com/user-profile/Addngradx/" class="grid_view_url_thing1">Addngradx</a>               &nbsp; &nbsp;
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post_thumb">
+                            <div class="prc_man">?6,000</div>
+                            <div class="feats1"></div>
+                            <div class="thumbnail_image">
+                                <a href="http://jolancer.com/jobs/writing/creative-writing-6/"><img class="my_image_thumb" src="http://jolancer.com/wp-content/uploads/2017/03/images-3-220x150.jpg" width="100%" height="150" alt="Creative writing"></a>
+                            </div>
+                            <div class="user_ratings">
+                                <div class="padd10_m">
+                                    <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> (0)
+                                </div>
+                            </div>
+                            <div class="gridview_title">
+                                <div class="padd10_m">
+                                    <a class="grid_view_url_thing" href="http://jolancer.com/jobs/writing/creative-writing-6/">Creative writing</a>
+                                </div>
+                            </div>
+                            <div class="user_and_flag">
+                                <div class="padd10_m">
+                                    by <a href="http://jolancer.com/user-profile/MickeyJ/" class="grid_view_url_thing1">MickeyJ</a>               &nbsp; &nbsp;
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post_thumb">
+                            <div class="prc_man">?5,000</div>
+                            <div class="feats1"></div>
+                            <div class="thumbnail_image">
+                                <a href="http://jolancer.com/jobs/business-promotion/occupationalhealth-safety-consultantwriting-of-all-safety-guides/"><img class="my_image_thumb" src="http://jolancer.com/wp-content/uploads/2017/02/health-safety-jolancer-220x150.jpg" width="100%" height="150" alt="OCCUPATIONAL/HEALTH SAFETY CONSULTANT/WRITING OF ALL SAFETY GUIDES"></a>
+                            </div>
+                            <div class="user_ratings">
+                                <div class="padd10_m">
+                                    <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> (0)
+                                </div>
+                            </div>
+                            <div class="gridview_title">
+                                <div class="padd10_m">
+                                    <a class="grid_view_url_thing" href="http://jolancer.com/jobs/business-promotion/occupationalhealth-safety-consultantwriting-of-all-safety-guides/">OCCUPATIONAL/HEALTH SAFETY CONSULTANT/WRITING OF ALL SAFETY GUIDES</a>
+                                </div>
+                            </div>
+                            <div class="user_and_flag">
+                                <div class="padd10_m">
+                                    by <a href="http://jolancer.com/user-profile/gospeldegreat/" class="grid_view_url_thing1">gospeldegreat</a>               &nbsp; &nbsp;
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post_thumb">
+                            <div class="prc_man">?70,000</div>
+                            <div class="feats1"></div>
+                            <div class="thumbnail_image">
+                                <a href="http://jolancer.com/jobs/other/cynthia-cleaning-services/"><img class="my_image_thumb" src="http://jolancer.com/wp-content/uploads/2017/03/FB_IMG_1479371271639-220x150.jpg" width="100%" height="150" alt="Cynthia cleaning services"></a>
+                            </div>
+                            <div class="user_ratings">
+                                <div class="padd10_m">
+                                    <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> (0)
+                                </div>
+                            </div>
+                            <div class="gridview_title">
+                                <div class="padd10_m">
+                                    <a class="grid_view_url_thing" href="http://jolancer.com/jobs/other/cynthia-cleaning-services/">Cynthia cleaning services</a>
+                                </div>
+                            </div>
+                            <div class="user_and_flag">
+                                <div class="padd10_m">
+                                    by <a href="http://jolancer.com/user-profile/cynthia016/" class="grid_view_url_thing1">cynthia016</a>               &nbsp; &nbsp;
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post_thumb">
+                            <div class="prc_man">?8,000</div>
+                            <div class="feats1"></div>
+                            <div class="thumbnail_image">
+                                <a href="http://jolancer.com/jobs/writing/ghost-writer/"><img class="my_image_thumb" src="http://jolancer.com/wp-content/uploads/2017/02/Ghostwriter-jolancer-220x150.jpg" width="100%" height="150" alt="Ghost writer"></a>
+                            </div>
+                            <div class="user_ratings">
+                                <div class="padd10_m">
+                                    <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> (0)
+                                </div>
+                            </div>
+                            <div class="gridview_title">
+                                <div class="padd10_m">
+                                    <a class="grid_view_url_thing" href="http://jolancer.com/jobs/writing/ghost-writer/">Ghost writer</a>
+                                </div>
+                            </div>
+                            <div class="user_and_flag">
+                                <div class="padd10_m">
+                                    by <a href="http://jolancer.com/user-profile/Lucypat/" class="grid_view_url_thing1">Lucypat</a>               &nbsp; &nbsp;
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post_thumb">
+                            <div class="prc_man">?35,000</div>
+                            <div class="feats1"></div>
+                            <div class="thumbnail_image">
+                                <a href="http://jolancer.com/jobs/web-design/website-design-development-google-adsense-integration/"><img class="my_image_thumb" src="http://jolancer.com/wp-content/uploads/2017/03/digital-agency-nigeria-220x150.jpg" width="100%" height="150" alt="WEBSITE DESIGN/ DEVELOPMENT &amp; GOOGLE ADSENSE INTEGRATION"></a>
+                            </div>
+                            <div class="user_ratings">
+                                <div class="padd10_m">
+                                    <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> (0)
+                                </div>
+                            </div>
+                            <div class="gridview_title">
+                                <div class="padd10_m">
+                                    <a class="grid_view_url_thing" href="http://jolancer.com/jobs/web-design/website-design-development-google-adsense-integration/">WEBSITE DESIGN/ DEVELOPMENT &amp; GOOGLE ADSENSE INTEGRATION</a>
+                                </div>
+                            </div>
+                            <div class="user_and_flag">
+                                <div class="padd10_m">
+                                    by <a href="http://jolancer.com/user-profile/webconsultant/" class="grid_view_url_thing1">webconsultant</a>               &nbsp; &nbsp;
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post_thumb">
+                            <div class="prc_man">?20,000</div>
+                            <div class="feats1"></div>
+                            <div class="thumbnail_image">
+                                <a href="http://jolancer.com/jobs/web-design/website-development/"><img class="my_image_thumb" src="http://jolancer.com/wp-content/uploads/2017/03/webdev02-jolancer-220x150.jpg" width="100%" height="150" alt="Website development"></a>
+                            </div>
+                            <div class="user_ratings">
+                                <div class="padd10_m">
+                                    <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> (0)
+                                </div>
+                            </div>
+                            <div class="gridview_title">
+                                <div class="padd10_m">
+                                    <a class="grid_view_url_thing" href="http://jolancer.com/jobs/web-design/website-development/">Website development</a>
+                                </div>
+                            </div>
+                            <div class="user_and_flag">
+                                <div class="padd10_m">
+                                    by <a href="http://jolancer.com/user-profile/Owokhan/" class="grid_view_url_thing1">Owokhan</a>               &nbsp; &nbsp;
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post_thumb">
+                            <div class="prc_man">?2,000</div>
+                            <div class="feats1"></div>
+                            <div class="thumbnail_image">
+                                <a href="http://jolancer.com/jobs/graphics/map-of-nigeria/"><img class="my_image_thumb" src="http://jolancer.com/wp-content/uploads/2017/03/mapofNGJolancer-220x150.png" width="100%" height="150" alt="Map of Nigeria"></a>
+                            </div>
+                            <div class="user_ratings">
+                                <div class="padd10_m">
+                                    <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> (0)
+                                </div>
+                            </div>
+                            <div class="gridview_title">
+                                <div class="padd10_m">
+                                    <a class="grid_view_url_thing" href="http://jolancer.com/jobs/graphics/map-of-nigeria/">Map of Nigeria</a>
+                                </div>
+                            </div>
+                            <div class="user_and_flag">
+                                <div class="padd10_m">
+                                    by <a href="http://jolancer.com/user-profile/Temmy16/" class="grid_view_url_thing1">Temmy16</a>               &nbsp; &nbsp;
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post_thumb">
+                            <div class="prc_man">?1,000</div>
+                            <div class="feats1"></div>
+                            <div class="thumbnail_image">
+                                <a href="http://jolancer.com/jobs/graphics/graphic-design-jobs/"><img class="my_image_thumb" src="http://jolancer.com/wp-content/uploads/2017/03/creative-design-jolancer-nigeria-cheap-220x150.png" width="100%" height="150" alt="graphic design jobs"></a>
+                            </div>
+                            <div class="user_ratings">
+                                <div class="padd10_m">
+                                    <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> (0)
+                                </div>
+                            </div>
+                            <div class="gridview_title">
+                                <div class="padd10_m">
+                                    <a class="grid_view_url_thing" href="http://jolancer.com/jobs/graphics/graphic-design-jobs/">Graphic design jobs</a>
+                                </div>
+                            </div>
+                            <div class="user_and_flag">
+                                <div class="padd10_m">
+                                    by <a href="http://jolancer.com/user-profile/Addngradx/" class="grid_view_url_thing1">Addngradx</a>               &nbsp; &nbsp;
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post_thumb">
+                            <div class="prc_man">?3,000</div>
+                            <div class="feats1"></div>
+                            <div class="thumbnail_image">
+                                <a href="http://jolancer.com/jobs/writing/typing-and-editing-2/"><img class="my_image_thumb" src="http://jolancer.com/wp-content/uploads/2017/03/PassWord-W7-220x150.jpg" width="100%" height="150" alt="Typing And Editing"></a>
+                            </div>
+                            <div class="user_ratings">
+                                <div class="padd10_m">
+                                    <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> (0)
+                                </div>
+                            </div>
+                            <div class="gridview_title">
+                                <div class="padd10_m">
+                                    <a class="grid_view_url_thing" href="http://jolancer.com/jobs/writing/typing-and-editing-2/">Typing And Editing</a>
+                                </div>
+                            </div>
+                            <div class="user_and_flag">
+                                <div class="padd10_m">
+                                    by <a href="http://jolancer.com/user-profile/Ssuleiman/" class="grid_view_url_thing1">Ssuleiman</a>               &nbsp; &nbsp;
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post_thumb">
+                            <div class="prc_man">?1,500</div>
+                            <div class="feats1"></div>
+                            <div class="thumbnail_image">
+                                <a href="http://jolancer.com/jobs/writing/pip-squeak/"><img class="my_image_thumb" src="http://jolancer.com/wp-content/uploads/2017/03/pipSqk-Jolancer-220x150.png" width="100%" height="150" alt="Pip Squeak"></a>
+                            </div>
+                            <div class="user_ratings">
+                                <div class="padd10_m">
+                                    <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> (0)
+                                </div>
+                            </div>
+                            <div class="gridview_title">
+                                <div class="padd10_m">
+                                    <a class="grid_view_url_thing" href="http://jolancer.com/jobs/writing/pip-squeak/">Pip Squeak</a>
+                                </div>
+                            </div>
+                            <div class="user_and_flag">
+                                <div class="padd10_m">
+                                    @*by <a href="http://jolancer.com/user-profile/@Akintola00001/" class="grid_view_url_thing1"></a>*@               &nbsp; &nbsp;
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post_thumb">
+                            <div class="prc_man">?2,500,000</div>
+                            <div class="feats1"></div>
+                            <div class="thumbnail_image">
+                                <a href="http://jolancer.com/jobs/writing/film-production/"><img class="my_image_thumb" src="http://jolancer.com/wp-content/uploads/2017/02/film_produc-220x150.jpg" width="100%" height="150" alt="Film production"></a>
+                            </div>
+                            <div class="user_ratings">
+                                <div class="padd10_m">
+                                    <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> <img src="http://jolancer.com/wp-content/themes/PricerrTheme/images/star_empty.png" width="15"> (0)
+                                </div>
+                            </div>
+                            <div class="gridview_title">
+                                <div class="padd10_m">
+                                    <a class="grid_view_url_thing" href="http://jolancer.com/jobs/writing/film-production/">Film production</a>
+                                </div>
+                            </div>
+                            <div class="user_and_flag">
+                                <div class="padd10_m">
+                                    by <a href="http://jolancer.com/user-profile/KAYCROWN/" class="grid_view_url_thing1">KAYCROWN</a>               &nbsp; &nbsp;
+                                </div>
+                            </div>
+                        </div>

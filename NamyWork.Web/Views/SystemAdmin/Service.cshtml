@@ -1,0 +1,322 @@
+﻿<div class="page-bar">
+    <ul class="page-breadcrumb">
+        <li>
+            <a href="#">Home</a>
+            <i class="fa fa-circle"></i>
+        </li>
+        <li>
+            <a ui-sref="services.list">Services</a>
+            <i class="fa fa-circle"></i>
+        </li>
+        <li>
+            <span>Service</span>
+            <i class="fa fa-circle"></i>
+        </li>
+        <li>
+            <span>{{model.Service.ServiceId}}</span>
+        </li>
+    </ul>
+</div>
+
+<div class="row">
+    <div class="col-xs-6">
+        <h1 class="page-title">
+            <i class="fa fa-file font-purple-seance"></i> Job Owner Details
+        </h1>
+    </div>
+    <div class="col-xs-6">
+        @*<div class="page-actions float-right">*@
+        <h1 class="page-title">
+            <i class="fa fa-file font-purple-seance"></i> Service Details
+        </h1>
+        @*</div>*@
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-3">
+        <div class="portlet light bordered">
+            <div class="portlet-title tabbable-line">
+                    <img ng-show="model.User.ImageUrl" ng-src="{{model.User.ImageUrl}}" width="70%" />
+                    <img ng-hide="model.User.ImageUrl" class="img-responsive preview" src="~/Content/Images/default-user.png" alt="">
+            </div>
+            <div class="portlet-title tabbable-line">
+                <div class="caption caption-md">
+                    <span class="caption-subject font-green-seagreen bold uppercase">
+                        <i class="fa fa-user" style="margin:0px;"></i>
+                        User Info
+                    </span>
+                </div>
+                <div class="actions">
+                    <button class="btn btn-circle btn-icon-only btn-default"
+                            data-toggle="tooltip"
+                            title="Edit"
+                            ng-click="model.editUser()">
+                        <i class="fa fa-pencil"></i>
+                    </button>
+                </div>
+            </div>
+            <table class="table">
+                <thead>
+                    @*<tr>
+                     <td class="bold">UserId</td>
+                     <td>{{model.User.UserId}}</td>
+                    </tr>*@
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>FirstName</th>
+                        <td>{{model.User.FirstName}}</td>
+                    </tr>
+                    <tr>
+                        <th>LastName</th>
+                        <td>{{model.User.LastName}}</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="portlet-title tabbable-line">
+                <div class="caption caption-md">
+                    <span class="caption-subject font-green-seagreen bold uppercase">
+                        <i class="fa fa-file-text" style="margin:0px;"></i>
+                        Test Status
+                    </span>
+                </div>
+            </div>
+            <div class="portlet-title tabbable-line">
+                <div class="caption caption-md">
+                    <span class="caption-subject font-green-seagreen bold uppercase">
+                        <i class="fa fa-file-text" style="margin:0px;"></i>
+                        Description
+                    </span>
+                </div>
+            </div>
+            <p>{{model.Test.Description || "No Description Available"}}</p>
+        </div>
+    </div>
+    <div class="col-md-9">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="portlet light bordered">
+                    <div class="portlet-title tabbable-line">
+                        <div class="caption caption-md">
+                            <span class="caption-subject font-green-seagreen bold uppercase">
+                                <i class="fa fa-square" style="margin:0px"></i>
+                                Service 
+                            </span>
+                        </div>
+                    </div>
+                    <div class="portlet-body">
+                        <div class="row">
+                            <div class="col-xs-12" >
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Job Title</th>
+                                            <th>Description</th>
+                                            <th>ImageUrl</th>
+                                            <th>Job Price</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="overflow">
+                                            <td>{{model.Service.JobTitle || "N/A"}}</td>
+                                            <td>{{model.Service.Description || "N/A"}}</td>
+                                            <td>{{model.Service.ImageUrl || "N/A"}}</td>
+                                            <td>{{model.Service.JobPrice || "N/A"}}</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portlet light bordered">
+                    <div class="portlet-title tabbable-line">
+                        <div class="caption caption-md">
+                            <span class="caption-subject font-green-seagreen bold uppercase">
+                                <i class="fa fa-users" style="margin:0px"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="portlet-body">
+                       <div class="row">
+                            <img ng-src="data:image/png;base64,{{model.Service.ImageUrl}}" width="30%" height="150" alt="#">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/ng-template" id="test.html">
+    <div class="modal-header">
+        <h3 class="modal-title">Edit Test </h3>
+    </div>
+    <div class="modal-body">
+        <form role="form" name="form" class="form-horizontal" ng-submit="model.Ok(model.Test)" autocomplete="off" method="post">
+            <div class="form-body">
+                <div class="form-group form-md-line-input">
+                    <label for="form_code" class="col-md-2 col-md-offset-2 control-label">Code <span class="required">*</span></label>
+                    <div class="col-md-6">
+                        <div class="input-icon right">
+                            <input type="text" class="form-control" id="form_code" ng-model="model.Test.Code" required />
+                            <span class="help-block">Enter Test Code</span>
+                            <div class="form-control-focus"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group form-md-line-input">
+                    <label for="form_title" class="col-md-2 col-md-offset-2 control-label">Title <span class="required">*</span></label>
+                    <div class="col-md-6">
+                        <div class="input-icon right">
+                            <input type="text" class="form-control" id="form_title" ng-model="model.Test.Title" required />
+                            <span class="help-block">Enter Test Title</span>
+                            <div class="form-control-focus"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group form-md-line-input">
+                    <label for="form_duration" class="col-md-2 col-md-offset-2 control-label">Duration <span class="required">*</span></label>
+                    <div class="col-md-6">
+                        <div class="input-icon right">
+                            <input type="text" class="form-control" id="form_duration" ng-model="model.Test.Duration" required />
+                            <span class="help-block">Enter Test Duration in Minutes</span>
+                            <div class="form-control-focus"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group form-md-line-input">
+                    <label for="form_start" class="col-md-2 col-md-offset-2 control-label">Start <span class="required">*</span></label>
+                    <div class="col-md-6">
+                        <div class="input-icon right">
+                            <input class="form-control date-picker"
+                                   id="form_start"
+                                   ng-model="model.Start"
+                                   data-provide="datepicker"
+                                   data-date-format="d MM yyyy"
+                                   data-date-autoclose="true"
+                                   type="text" value=""
+                                   required />
+                            <span class="help-block">Enter Start Date</span>
+                            <div class="form-control-focus"></div>
+                            <i class="fa fa-calendar highlight"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group form-md-line-input">
+                    <label for="form_title" class="col-md-2 col-md-offset-2 control-label">End <span class="required">*</span></label>
+                    <div class="col-md-6">
+                        <div class="input-icon right">
+                            <input class="form-control date-picker"
+                                   id="form_end"
+                                   ng-model="model.End"
+                                   data-provide="datepicker"
+                                   data-date-format="d MM yyyy"
+                                   data-date-autoclose="true"
+                                   type="text" value=""
+                                   required />
+                            <span class="help-block">Enter End Date</span>
+                            <div class="form-control-focus"></div>
+                            <i class="fa fa-calendar highlight"></i>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="form-group form-md-line-input">
+                    <label for="form_title" class="col-md-2 col-md-offset-2 control-label">Description</label>
+                    <div class="col-md-6">
+                        <div class="input-icon right">
+                            <textarea class="form-control" ng-model="model.Test.Description"></textarea>
+                            <span class="help-block">Enter Description</span>
+                            <div class="form-control-focus"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="modal-footer">
+        <button class="btn default" ng-click="model.Cancel()">Cancel</button>
+        <button class="btn blue" ng-click="model.Ok(form)">OK</button>
+    </div>
+</script>
+
+<script type="text/ng-template" id="form.html">
+    <form role="form" name="form" class="form-horizontal" ng-submit="model.Ok(form)" autocomplete="off" method="post">
+        <div class="modal-header">
+            <h3 class="modal-title">Add Question Pack</h3>
+        </div>
+        <div class="modal-body">
+
+            <div class="form-body">
+
+                <div class="form-group form-md-line-input">
+                    <label class="col-md-3 col-md-offset-1 control-label" for="form_email">Form</label>
+                    <div class="col-md-6">
+                        <select class="form-control" ng-init="model.Form = model.Forms[0]" ng-model="model.Form" ng-options="form as form.Name for form in model.Forms" required></select>
+                        <div class="form-control-focus"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button class="btn default" type="reset" ng-click="model.Cancel()">Cancel</button>
+            <button class="btn blue" type="submit">OK</button>
+        </div>
+    </form>
+</script>
+
+<script type="text/ng-template" id="invite.html">
+    <form role="form" name="form" class="form-horizontal" ng-submit="model.Ok(form)" autocomplete="off" method="post">
+        <div class="modal-header">
+            <h3 class="modal-title">Invite Test Taker</h3>
+        </div>
+        <div class="modal-body">
+
+            <div class="form-body">
+
+                <div class="form-group form-md-line-input">
+                    <label class="col-md-3 col-md-offset-1 control-label" for="form_email">Email</label>
+                    <div class="col-md-6">
+                        <input type="email" class="form-control" id="form_email" ng-model="model.TestTaker.Email" placeholder="Enter Test Taker's Email Address" required />
+                        <div class="form-control-focus"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button class="btn default" type="reset" ng-click="model.Cancel()">Cancel</button>
+            <button class="btn blue" type="submit">OK</button>
+        </div>
+    </form>
+</script>
+
+<script type="text/ng-template" id="testtaker.html">
+    <form role="form" name="form" class="form-horizontal" autocomplete="off" method="post">
+        <div class="modal-header">
+            <h3 class="modal-title">Test Taker Details</h3>
+        </div>
+        <div class="modal-body">
+
+            <div class="form-body">
+
+                <div class="form-group form-md-line-input">
+                    <label class="col-md-3 col-md-offset-1 control-label" for="form_email">Email</label>
+                    <div class="col-md-6">
+                        <input type="email" class="form-control" id="form_email" ng-model="model.TestTaker.User.Email" placeholder="Enter Test Taker's Email Address" required />
+                        <div class="form-control-focus"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button class="btn blue" type="submit" ng-show="model.EditMode">OK</button>
+            <button class="btn default" type="reset" ng-click="model.Cancel()">Cancel</button>
+        </div>
+    </form>
+</script>

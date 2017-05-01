@@ -1,0 +1,176 @@
+﻿<!-- BEGIN PAGE BAR -->
+<div class="page-bar">
+    <ul class="page-breadcrumb">
+        <li>
+            <a href="#">Home</a>
+            <i class="fa fa-circle"></i>
+        </li>
+        <li>
+            <a ui-sref="services.list">Services</a>
+            <i class="fa fa-circle"></i>
+        </li>
+    </ul>
+</div>
+
+<div>
+    <div class="col-xs-6">
+        <h1 class="page-title">
+            <i class="fa fa-pencil font-purple-studio"></i> Services
+        </h1>
+    </div>
+    <div class="col-xs-6">
+        <div class="page-actions">
+            <button class="btn purple pull-right" ng-click="model.addService()">
+                <i class="fa fa-plus"></i> Add Service
+            </button>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="portlet light bordered">
+            <table class="table" ng-show="model.Services.length">
+                <thead>
+                    <tr>
+                        <th>S/N</th>
+                        <th>Job Title</th>
+                        <th>Description</th>
+                        <th>Job Price</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="overflow" ng-repeat="service in model.Services">
+                        <td>{{$index + 1}}</td>
+                        <td>{{service.JobTitle || "N/A"}}</td>
+                        <td>{{service.Description || "N/A"}}</td>
+                        <td>{{service.JobPrice || "N/A"}}</td>
+
+                        <td class="text-right">
+                            <a ui-sref="services.details({ id: service.ServiceId})" class="btn btn-default btn-xs"><i class="fa fa-search"></i>View</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="empty" ng-hide="model.Services.length">
+                There are no Services Available yet
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="view-frame" ui-view></div>
+<!-- END : Service CARDS -->
+
+<style>
+    @@media (min-width: 1200px) {
+        .user {
+            max-width: 300px;
+        }
+    }
+</style>
+
+
+<script type="text/ng-template" id="addService.html">
+    <div class="modal-header">
+        <h3 class="modal-title">Add Service</h3>
+    </div>
+    <div class="modal-body">
+        <form name="form" role="form" class="form-horizontal" ng-submit="model.Ok(form, model.Service)">
+            <div class="form-body">
+
+                <div class="form-group form-md-line-input">
+                    <label class="col-md-3 control-label" for="form_jobtitle">Job Title</label>
+                    <div class="col-md-7">
+                        <input type="text" class="form-control" id="form_jobtitle" ng-model="model.Service.Jobtitle" placeholder="Enter Job Title" required />
+                        <span class="help-block">Job Title</span>
+                        <i class="fa fa-star highlight"></i>
+                    </div>
+                </div>
+
+                <div class="form-group form-md-line-input">
+                    <label class="col-md-3 control-label" for="form_descriptions">Descriptions</label>
+                    <div class="col-md-7">
+                        <input type="text" class="form-control" id="form_descriptions" ng-model="model.Service.Description" placeholder="Enter Description" required />
+                        <i class="fa fa-star highlight"></i>
+                    </div>
+                </div>
+
+                <div class="form-group form-md-line-input">
+                    <label class="col-md-3 control-label" for="form_instructions">Instructions</label>
+                    <div class="col-md-7">
+                        <input type="text" class="form-control" id="form_instructions" ng-model="model.Service.Instruction" placeholder="Enter Instructions" required />
+                        <i class="fa fa-star highlight"></i>
+                    </div>
+                </div>
+
+                <div class="form-group form-md-line-input">
+                    <label class="col-md-3 control-label" for="form_category">Category</label>
+                    <div class="col-md-7">
+                        <select type="" class="form-control" id="form_category" ng-init="model.Category = model.Categories[0]" ng-change="catSelected()"  ng-model="model.Category" ng-options=" category.CategoryName for category in model.Categories" placeholder="Select Category " required >
+                            </select>
+                        <i class="fa fa-star highlight"></i>
+
+                    </div>
+                </div>
+
+                <div class="form-group form-md-line-input">
+                    <label class="col-md-3 control-label" for="form_city">City</label>
+                    <div class="col-md-7">
+                        <select  class="form-control" id="form_city" ng-init="model.City = model.Cities[0]" ng-change="citySelected()"  ng-model="model.City" ng-options="city.CityName for city in model.Cities" required >
+
+                        </select>
+                        <i class="fa fa-star highlight"></i>
+                    </div>
+                </div>
+
+
+                <div class="form-group form-md-line-input">
+                    <label class="col-md-3 control-label" for="form_budgetfrom">Budget From</label>
+                    <div class="col-md-7">
+                        <input type="number" class="form-control" id="form_budgetfrom" ng-model="model.Service.BudgetFrom" placeholder="Enter Your Initial Budget " required />
+                    </div>
+                </div>
+
+                <div class="form-group form-md-line-input">
+                    <label class="col-md-3 control-label" for="form_budgetto">Budget To</label>
+                    <div class="col-md-7">
+                        <input type="number" class="form-control" id="form_budgetto" ng-model="model.Service.BudgetTo" placeholder="Enter your final Budget" required />
+                    </div>
+                    <i class="fa fa-star highlight"></i>
+                </div>
+
+                <div class="form-group form-md-line-input">
+                    <label class="col-md-3 control-label" for="form_startdate">Start Date</label>
+                    <div class="col-md-7">
+                        <input type="date" class="form-control" id="form_startdate" placeholder="Enter Start Date"
+                               ng-model="model.Service.StartDate" Password />
+                    </div>
+                    <i class="fa fa-star highlight"></i>
+                </div>
+
+                <div class="form-group form-md-line-input">
+                    <label class="col-md-3 control-label" for="form_enddate">End Date</label>
+                    <div class="col-md-7">
+                        <input type="date" class="form-control" id="form_enddate" placeholder="Enter End Date"
+                               ng-model="model.Service.EndDate" Password />
+                    </div>
+                    <i class="fa fa-star highlight"></i>
+                </div>
+            </div>
+            <button class="btn blue">OK</button>
+        </form>
+
+        <div class="modal-footer">
+            <button class="btn default" ng-click="model.Cancel()">Cancel</button>
+        </div>
+    </div>
+
+</script>
+
+
+
+

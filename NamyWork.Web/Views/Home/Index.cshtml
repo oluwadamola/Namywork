@@ -1,0 +1,533 @@
+﻿@{
+    Layout = null;
+}
+<!doctype html>
+
+<html lang="en">
+<head>
+    <title>NamyWork</title>
+    <meta charset="utf-8">
+    <!-- Meta -->
+    <meta name="keywords" content="" />
+    <meta name="author" content="">
+    <meta name="robots" content="" />
+    <meta name="description" content="" />
+
+    <!-- this styles only adds some repairs on idevices  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.html">
+
+    <!-- Google fonts - witch you want to use - (rest you can just remove) -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- Stylesheets -->
+    <link rel="stylesheet" media="screen" href="/Content/Theme3/js/bootstrap/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="/Content/Theme3/js/mainmenu/menu.css" type="text/css" />
+    <link rel="stylesheet" href="/Content/Theme3/css/default.css" type="text/css" />
+    <link rel="stylesheet" href="/Content/Theme3/css/layouts.css" type="text/css" />
+    <link rel="stylesheet" href="/Content/Theme3/css/shortcodes.css" type="text/css" />
+    <link rel="stylesheet" href="/Content/Theme3/css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" media="screen" href="/Content/Theme3/css/responsive-leyouts.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="/Content/Theme3/css/Simple-Line-Icons-Webfont/simple-line-icons.css" media="screen" />
+    <link rel="stylesheet" href="/Content/Theme3/css/et-line-font/et-line-font.css">
+    <link rel="stylesheet" href="/Content/Theme3/js/style-swicher/style-swicher.css" type="text/css" />
+    <link rel="stylesheet" href="/Content/Theme3/js/custom-scrollbar/jquery.mCustomScrollbar.css">
+
+</head>
+
+<body ng-app="Stev">
+    <div class="site_wrapper">
+        <div class="topbar dark topbar-padding">
+            <div class="container">
+                <div class="topbar-left-items">
+                    <ul class="toplist toppadding pull-left paddtop1">
+                        <li class="rightl">Customer Care</li>
+                        <li>(888) 123-4567</li>
+                    </ul>
+                </div>
+                <!--end left-->
+
+                <div class="topbar-right-items pull-right">
+                    <ul class="toplist toppadding">
+                        <li><a href="#"><i class="fa fa-search"></i> &nbsp;</a></li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="topbar white">
+            <div class="container">
+                <div class="topbar-left-items">
+                    <div class="margin-top1"></div>
+                    <ul class="toplist toppadding pull-left paddtop1">
+                        <li class="lineright"><a href="/Account">Login</a></li>
+                        <li><a href="/account#!/fsignup">Register</a></li>
+                    </ul>
+                </div>
+                <!--end left-->
+
+                <div class="topbar-middle-logo no-bgcolor"><a href="index.html"><img src="/Content/Theme3/images/logo.png" alt="" /></a></div>
+                <!--end middle-->
+
+                <div class="topbar-right-items pull-right">
+                    <div class="margin-top1"></div>
+                    <ul class="toplist toppadding">
+                        <li class="lineright"><a href="#">My Account</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+
+        <div id="header">
+            <div ng-controller="ServicesCtrl as model" class="container">
+                <div class="navbar red-2 navbar-default yamm">
+                    <div id="navbar-collapse-grid" class="navbar-collapse collapse">
+                        <ul class="nav red-2 navbar-nav">
+                            <li> <a href="index.html" class="dropdown-toggle active">Home</a></li>
+                            <li><a href="#" class="dropdown-toggle">About</a></li>
+                            <li><a href="#" class="dropdown-toggle">Service</a></li>
+                            <li class="dropdown yamm-fw">
+                                <a href="#" class="dropdown-toggle">Category</a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <!-- Content container to add padding -->
+                                        <div class="yamm-content">
+                                            <div class="row">
+                                                 <p>Category </p>                                       
+                                               <ul class="col-sm-6 col-md-3 list-unstyled" ng-repeat="category in model.Categories">
+
+                                                    <li><a href="#"><i class="fa fa-angle-right"></i> &nbsp; {{category.CategoryName}}</a></li>
+
+                                                </ul>
+                                           
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown yamm-fw">
+                                <a href="#" class="dropdown-toggle">Location</a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <!-- Content container to add padding -->
+                                        <div class="yamm-content">
+                                            <div class="row">
+                                                <p>Cities</p>
+                                                <ul class="col-sm-6 col-md-3 list-unstyled " ng-repeat="city in model.Cities">
+                                                    <li><a href="#"><i class="fa fa-angle-right"></i> &nbsp; {{city.CityName}} </a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#" class="dropdown-toggle">How it works</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end menu-->
+        <div class="clearfix"></div>
+
+        <section>
+            <div class="header-inner two ">
+                <div class="inner  text-center">
+                    <h4 class="title text-white uppercase roboto-slab" float-left>Hire a Freelancer</h4>
+                    <h5 class="text-white uppercase">Here</h5>
+                </div>
+                <div class="overlay bg-opacity-5"></div>
+                <img src="/Content/Theme3/images/header-img2.jpg" width="100%" alt="" class="img-responsive" />
+            </div>
+        </section>
+        <!-- end header inner -->
+        <!--end section-->
+        <div class="clearfix"></div>
+
+        <section class="sec-padding">
+            <div class="container" >
+                <div class="row" ng-controller="ServicesCtrl as model">
+                    <div class="col-md-9">
+                        <div class="col-md-4 col-sm-6 bmargin" ng-repeat="service in model.Services">
+                            <div class="shop-product-holder">
+                                <a href="#">
+                                    <div class="image-holder">
+                                        <div class="hoverbox"><i class="fa fa-link"></i></div>
+                                        <img ng-src="data:image/png;base64,{{service.ImageUrl}}" alt="" class="img-responsive" />
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="clearfix"></div>
+                            <br />
+                            <h5 class="less-mar1 roboto-slab"><a href="#">Beautiful Green Dress</a></h5>
+                            <p>{{service.Description}}</p>
+                            <h5 class="text-red-4">{{service.BudgetFrom}}–{{service.BudgetTo}}</h5>
+                        </div>
+                        <!--end item-->
+                        <!--<div class="col-md-4 col-sm-6 bmargin">
+                        <div class="shop-product-holder">
+                            <a href="men-product-preview.html">
+                                <div class="image-holder">
+                                    <div class="hoverbox"><i class="fa fa-link"></i></div>
+                                    <img src="/Content/Theme3/images/580.jpg" alt="" class="img-responsive" />
+                                </div>
+                            </a>
+                        </div>
+                        <div class="clearfix"></div>
+                        <br />
+                        <h5 class="less-mar1 roboto-slab"><a href="men-product-preview.html">Jean & Teashirt</a></h5>
+                        <p>Lorem ipsum dolor sit amet</p>
+                        <h5 class="text-red-4">$ 25.00–$ 29.00</h5>
+                    </div>-->
+                    <!--end item-->
+
+                       <!-- <div class="col-md-4 col-sm-6 bmargin">
+                            <div class="shop-product-holder">
+                                <a href="women-product-preview.html">
+                                    <div class="image-holder">
+                                        <div class="hoverbox"><i class="fa fa-link"></i></div>
+                                        <img src="/Content/Theme3/images/581.jpg" alt="" class="img-responsive" />
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="clearfix"></div>
+                            <br />
+                            <h5 class="less-mar1 roboto-slab"><a href="women-product-preview.html">Designer top</a></h5>
+                            <p>Lorem ipsum dolor sit amet</p>
+                            <h5 class="text-red-4">$ 25.00–$ 29.00</h5>
+                        </div>
+                        -->
+                        <!--end item-->
+
+                        <div class="clearfix"></div>
+
+                        <div class="col-divider-margin-4"></div>
+                       <!-- <div class="col-md-4 col-sm-6 bmargin">
+                            <div class="shop-product-holder">
+                                <a href="women-product-preview.html">
+                                    <div class="image-holder">
+                                        <div class="hoverbox"><i class="fa fa-link"></i></div>
+                                        <img src="/Content/Theme3/images/584.jpg" alt="" class="img-responsive" />
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="clearfix"></div>
+                            <br />
+                            <h5 class="less-mar1 roboto-slab"><a href="women-product-preview.html">Beautiful Pink Top</a></h5>
+                            <p>Lorem ipsum dolor sit amet</p>
+                            <h5 class="text-red-4">$ 25.00–$ 29.00</h5>
+                        </div>
+                        <!--end item-->
+
+                        <!--<div class="col-md-4 col-sm-6 bmargin">
+                            <div class="shop-product-holder">
+                                <a href="men-product-preview.html">
+                                    <div class="image-holder">
+                                        <div class="hoverbox"><i class="fa fa-link"></i></div>
+                                        <img src="/Content/Theme3/images/585.jpg" alt="" class="img-responsive" />
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="clearfix"></div>
+                            <br />
+                            <h5 class="less-mar1 roboto-slab"><a href="men-product-preview.html">Fashion Watches</a></h5>
+                            <p>Lorem ipsum dolor sit amet</p>
+                            <h5 class="text-red-4">$ 25.00–$ 29.00</h5>
+                        </div>-->
+                        <!--end item-->
+
+                        <!--<div class="col-md-4 col-sm-6 bmargin">
+                            <div class="shop-product-holder">
+                                <a href="women-product-preview.html">
+                                    <div class="image-holder">
+                                        <div class="hoverbox"><i class="fa fa-link"></i></div>
+                                        <img src="/Content/Theme3/images/586.jpg" alt="" class="img-responsive" />
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="clearfix"></div>
+                            <br />
+                            <h5 class="less-mar1 roboto-slab"><a href="women-product-preview.html">Designer Bag</a></h5>
+                            <p>Lorem ipsum dolor sit amet</p>
+                            <h5 class="text-red-4">$ 25.00–$ 29.00</h5>
+                        </div>-->
+                        <!--end item-->
+                    </div>
+                    <!--end left-->
+
+                    <div class="col-md-3">
+                        <div class="col-md-12 nopadding">
+                            <div class="blog1-sidebar-box">
+                                <h6 class="uppercase roboto-slab">Search</h6>
+                                <div class="clearfix"></div>
+                                <input class="blog1-sidebar-serch_input" type="search" placeholder="Email Address">
+                                <input name="" value="Submit" class="blog1-sidebar-serch-submit" type="submit">
+                            </div>
+                        </div>
+                        <!--end sidebar box-->
+
+                        <div class="col-md-12 nopadding">
+                            <div class="blog1-sidebar-box">
+                                <h6 class="uppercase roboto-slab">Categories</h6>
+                                <div class="clearfix"></div>
+                                <ul class="category-links red-4">
+                                    <li><a href="#">Business</a></li>
+                                    <li><a class="active" href="#">Education</a></li>
+                                    <li><a href="#">Medical</a></li>
+                                    <li><a href="#">Travel</a></li>
+                                    <li><a href="#">Photogreaphy</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--end sidebar box-->
+
+                        <div class="col-md-12 nopadding">
+                            <div class="blog1-sidebar-box">
+                                <h6 class="uppercase roboto-slab">Featured Products</h6>
+                                <div class="clearfix"></div>
+                                <div class="blog1-sidebar-posts red-4">
+                                    <div class="image-left"><img src="/Content/Theme3/images/597.jpg" alt="" /></div>
+                                    <div class="text-box-right">
+                                        <h6 class="less-mar3 nopadding roboto-slab"><a href="#">Fashion</a></h6>
+                                        <p>$30.99</p>
+                                        <div class="post-info"> <span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span></div>
+                                    </div>
+                                </div>
+                                <!--end item-->
+
+                                <div class="blog1-sidebar-posts red-4">
+                                    <div class="image-left"><img src="/Content/Theme3/images/598.jpg" alt="" /></div>
+                                    <div class="text-box-right">
+                                        <h6 class="less-mar3 nopadding roboto-slab"><a href="#">Designer Top</a></h6>
+                                        <p>$30.99</p>
+                                        <div class="post-info"> <span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span></div>
+                                    </div>
+                                </div>
+                                <!--end item-->
+
+                                <div class="blog1-sidebar-posts red-4">
+                                    <div class="image-left"><img src="/Content/Theme3/images/599.jpg" alt="" /></div>
+                                    <div class="text-box-right">
+                                        <h6 class="less-mar3 nopadding roboto-slab"><a href="#">Fashion</a></h6>
+                                        <p>$30.99</p>
+                                        <div class="post-info"> <span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span></div>
+                                    </div>
+                                </div>
+                                <!--end item-->
+                            </div>
+                        </div>
+                        <!--end sidebar box-->
+
+                        <div class="col-md-12 nopadding">
+                            <div class="blog1-sidebar-box">
+                                <h5 class="uppercase dosis">Tags</h5>
+                                <div class="clearfix"></div>
+                                <ul class="shop-tags">
+                                    <li><a href="#">Animation</a></li>
+                                    <li><a href="#">Art</a></li>
+                                    <li><a href="#">UI Design</a></li>
+                                    <li><a href="#">Photography</a></li>
+                                    <li><a class="active" href="#">Design</a></li>
+                                    <li><a href="#">Art</a></li>
+                                    <li><a href="#">Responsive</a></li>
+                                    <li><a href="#">Develop</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--end sidebar box-->
+
+                    </div>
+                    <!--end right-->
+                </div>
+            </div>
+        </section>
+        <!-- end section -->
+        <div class="clearfix"></div>
+
+        <div class=" divider-line solid light opacity-6"></div>
+        <section class="sec-moreless-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul class="clientlogo-list two">
+                            <li><img src="/Content/Theme3/images/site-img41.jpg" alt="" /></li>
+                            <li><img src="/Content/Theme3/images/site-img42.jpg" alt="" /></li>
+                            <li><img src="/Content/Theme3/images/site-img43.jpg" alt="" /></li>
+                            <li><img src="/Content/Theme3/images/site-img44.jpg" alt="" /></li>
+                            <li class="last"><img src="/Content/Theme3/images/site-img45.jpg" alt="" /></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--end section -->
+        <div class="clearfix"></div>
+
+        <section class="section-light sec-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 clearfix">
+                        <div class="footer-logo"><img src="/Content/Theme3/images/flogo.png" alt="" /></div>
+                        <ul class="address-info-2">
+                            <li>Address: No.28 - 63739 street lorem ipsum Lagos, Nigeria</li>
+                            <li><i class="fa fa-phone"></i> Phone: + 1 (234) 567 8901</li>
+                            <li><i class="fa fa-fax"></i> Fax: + 1 (234) 567 8901</li>
+                            <li><i class="fa fa-envelope"></i> Email: support@namywork.com </li>
+                            <li><i class="fa fa-envelope"></i> Email: support@namywork.com </li>
+                        </ul>
+                    </div>
+                    <!--end item-->
+
+                    <div class="col-md-3 clearfix">
+                        <div class="item-holder">
+                            <h4 class="uppercase footer-title two less-mar3 roboto-slab">Featured</h4>
+                            <div class="footer-title-bottomstrip"></div>
+                            <div class="clearfix"></div>
+                            <div class="image-left"><img src="/Content/Theme3/images/589.jpg" alt="" /></div>
+                            <div class="text-box-right">
+                                <h6 class="less-mar3 nopadding roboto-slab nopadding"><a href="#">Clean And Modern</a></h6>
+                                <p>$12.59</p>
+                                <div class="footer-post-info"><span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span></div>
+                            </div>
+                            <div class="divider-line solid light margin"></div>
+                            <div class="clearfix"></div>
+                            <div class="image-left"><img src="/Content/Theme3/images/590.jpg" alt="" /></div>
+                            <div class="text-box-right">
+                                <h6 class="less-mar3 roboto-slab nopadding"><a href="#">Layered PSD Files</a></h6>
+                                <p>Lorem ipsum dolor sit</p>
+                                <div class="footer-post-info"><span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end item-->
+
+                    <div class="col-md-3 clearfix">
+                        <h4 class="uppercase footer-title two less-mar3 roboto-slab">Quick Links</h4>
+                        <div class="clearfix"></div>
+                        <div class="footer-title-bottomstrip"></div>
+                        <ul class="usefull-links-2">
+                            <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
+                            <li><a href="#"><i class="fa fa-angle-right"></i> Ullamcorper odio nec turpis</a></li>
+                            <li><a href="#"><i class="fa fa-angle-right"></i> Aliquam porttitor vestibulum ipsum</a></li>
+                            <li><a href="#"><i class="fa fa-angle-right"></i> Lobortis enim nec nisi</a></li>
+                            <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
+                        </ul>
+                    </div>
+                    <!--end item-->
+
+                    <div class="col-md-3 clearfix">
+                        <div class="item-holder">
+                            <h4 class="uppercase footer-title two less-mar3 roboto-slab">Featured</h4>
+                            <div class="footer-title-bottomstrip"></div>
+                            <div class="clearfix"></div>
+                            <div class="image-left"><img src="/Content/Theme3/images/587.jpg" alt="" /></div>
+                            <div class="text-box-right">
+                                <h6 class="less-mar3 nopadding roboto-slab nopadding"><a href="#">Clean And Modern</a></h6>
+                                <p>$12.59</p>
+                                <div class="footer-post-info"><span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span></div>
+                            </div>
+                            <div class="divider-line solid light margin"></div>
+                            <div class="clearfix"></div>
+                            <div class="image-left"><img src="/Content/Theme3/images/588.jpg" alt="" /></div>
+                            <div class="text-box-right">
+                                <h6 class="less-mar3 roboto-slab nopadding"><a href="#">Layered PSD Files</a></h6>
+                                <p>Lorem ipsum dolor sit</p>
+                                <div class="footer-post-info"><span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end item-->
+
+                </div>
+            </div>
+        </section>
+        <!--end section-->
+        <div class="clearfix"></div>
+
+        <section class="section-copyrights section-white-2 sec-moreless-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 bmargin">
+                        <ul class="payment-type">
+                            <li>We Accept &nbsp;</li>
+                            <li><img src="/Content/Theme3/images/591.jpg" alt="" /></li>
+                            <li><img src="/Content/Theme3/images/592.jpg" alt="" /></li>
+                            <li><img src="/Content/Theme3/images/593.jpg" alt="" /></li>
+                            <li><img src="/Content/Theme3/images/594.jpg" alt="" /></li>
+                            <li><img src="/Content/Theme3/images/595.jpg" alt="" /></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 bmargin"> <span>Copyright © 2017 l namywork.com. All rights reserved.</span> </div>
+                    <div class="col-md-3 bmargin">
+                        <ul class="social-icons-3 dark-2 no-margin-left pull-right">
+                            <li class="first"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--end section-->
+        <div class="clearfix"></div>
+
+        <a href="#" class="scrollup red-4"></a><!-- end scroll to top of the page-->
+    </div>
+    <!-- end site wraper -->
+    <!-- ============ JS FILES ============ -->
+
+    <script type="text/javascript" src="/Content/Theme3/js/universal/jquery.js"></script>
+    <script src="/Content/Theme3/js/bootstrap/bootstrap.min.js" type="text/javascript"></script>
+    <script src="/Content/Theme3/js/mainmenu/jquery.sticky.js"></script>
+    <script src="/Content/Theme3/js/custom-scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="/Content/Theme3/js/style-swicher/style-swicher.js"></script>
+    <script src="/Content/Theme3/js/style-swicher/custom.js"></script>
+    <script src="/Content/Theme3/js/scripts/functions.js" type="text/javascript"></script>
+
+    <!-- Application Libraries -->
+    <script src="~/Scripts/libs/toastr/toastr.min.js"></script>
+    <script src="~/Scripts/libs/moment/moment.js"></script>
+    <script src="~/Scripts/libs/angular/angular.js"></script>
+    <script src="~/Scripts/libs/angular-animate/angular-animate.min.js"></script>
+    <script src="~/Scripts/libs/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="~/Scripts/libs/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+
+    <!-- Module -->
+    <script src="~/Scripts/app/Account/app.js"></script>
+    <script src="~/Scripts/app/service/app.js"></script>
+    <script src="~/Scripts/app/infrastructure/modules.js"></script>
+
+    <!-- Utils -->
+    <script src="~/Scripts/app/infrastructure/utils/constants.js"></script>
+    <script src="~/Scripts/app/infrastructure/utils/Interceptors.js"></script>
+
+    <!-- Services -->
+    <script src="~/Scripts/app/infrastructure/services/storage.js"></script>
+    <script src="~/Scripts/app/infrastructure/services/notify.js"></script>
+    <script src="~/Scripts/app/infrastructure/services/file.js"></script>
+    <script src="~/Scripts/app/infrastructure/services/http.js"></script>
+    <script src="~/Scripts/app/infrastructure/services/domain.js"></script>
+
+    <!-- Controller -->
+    <script src="~/Scripts/app/service/controllers.js"></script>
+
+    <script>
+    angular.module("Stev", ["Stev.Services", "Stev.Infrastructure", "ui.router", "ngAnimate"]);
+    </script>
+
+</body>
+
+</html>
+

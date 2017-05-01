@@ -1,0 +1,220 @@
+/*----These are custom styles used to in the namywork website 
+-----*/
+select{
+	font-family: Cursive;
+	}
+.col {
+    -webkit-box-flex: 1;
+    -moz-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: block;
+    padding: 5px;
+    width: 100%;
+}
+.row {
+    display: -webkit-box;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 5px;
+   /* width: 100%;*/
+}
+* {
+    box-sizing: border-box;
+}
+.prc_man
+{
+	position: absolute;
+	bottom: 5px;
+	right:5px;
+	font-weight:bold;
+	color:#239B20;
+	font-size:21px;
+	font-family:'Alegreya Sans',Arial, Helvetica, sans-serif;
+
+}
+.post_thumb
+{
+	float:left;
+	width:220px;
+	height:280px;
+	text-align:center;
+	position:relative;
+	background:white;
+	padding:6px;
+
+	border:1px solid #D5D4D2;
+	box-shadow:0 3px 7px #e0e0e0;
+	margin:15px 10px 30px 10px
+}
+
+.thumbnail_image img.my_image
+{
+	border:1px solid #cdcdcd;
+	background:#fff;
+	padding:3px;
+	border-radius:2px;
+	box-shadow:0 0 3px #ccc;
+}
+
+.thumbnail_image img.my_image:hover
+{
+	opacity:0.8
+}
+
+.thumbnail_image
+{
+	margin-bottom:10px;
+	width:100%;
+	margin:auto;
+	text-align:center;
+}
+
+.user_and_flag
+{
+	width:100%;
+	margin:auto;
+	text-align:left
+}
+
+.user_ratings
+{
+	width:100%;
+	margin:auto;
+	text-align:left	;
+	margin-top:-5px;
+}
+
+.latest-posted-jobs-big { position:relative }
+
+.gridview_title
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	line-height:18px;
+	width:100%;
+	margin:auto;
+	text-align:left
+}
+
+a.grid_view_url_thing:link, a.grid_view_url_thing:visited
+{
+	color:#555;
+	text-decoration:none
+}
+
+a.grid_view_url_thing:hover
+{
+	color:#787878;
+	text-decoration:none
+}
+
+
+a.grid_view_url_thing1:link, a.grid_view_url_thing1:visited
+{
+	color:#787878;
+	text-decoration:none
+}
+
+a.grid_view_url_thing1:hover
+{
+	color:#555;
+	text-decoration:none
+}
+
+.feats1
+{
+	width:70px; position:absolute;
+	top:8px;
+	left:2px;
+	height:20px;
+	background:url('images/feats1.png');
+	z-index:1000
+}
+
+/* mobile devices */
+
+@media all and (max-width: 767px) {
+	h2 {
+		text-align: center;
+	}
+	.switchable__text .lead{
+		text-align: center;
+	}
+	.col-sm-8 {
+    	margin-top: 40px;
+	}
+	.switchable .switchable__text {
+    	margin-top: 5.3em;
+	}
+	.switchable__text a {
+    	display:block;
+    	text-align:center
+	}
+	.bar .menu-horizontal {
+    	position: relative;
+    	top: 6px;
+    	text-align: center;
+        line-height: 4em;
+	}
+	.feature-1 p.lead {
+    	min-height: 3.05263157894737em;
+	}
+	.col-sm-5.col-md-4.col-xs-6 {
+    	width: 100%;
+    	padding-left: 15px;
+    	padding-right: 15px;
+	}
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px){
+	ul.menu-horizontal {
+    	width: 100%;
+	}
+	.text-right .bar__module {
+    	float: right !important;
+	}
+}
+
+@media (max-width:991px) and (min-width: 768px){
+	.col-sm-12 {
+    	width: 60%;
+    	display: flex;
+    	float: right;
+	}
+}
+/** View Animation **/
+.view-frame.ng-enter {
+    -webkit-transition: linear all 0.3s;
+    -moz-transition: linear all 0.3s;
+    -o-transition: linear all 0.3s;
+    transition: linear all 0.3s;
+    opacity: 0;
+}
+
+    .view-frame.ng-enter.ng-enter-active {
+        opacity: 1;
+    }
+
+
+#toast-container {
+    margin-top: 50px;
+}
+
+.bar{
+    padding:0px;
+}
+
+#loading-bar .bar {
+    background: #ff0000 !important;
+}
+#loading-bar-spinner .spinner-icon {
+    border-top-color: #ff0000 !important;
+    border-left-color: #ff0000 !important;
+}
+
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}

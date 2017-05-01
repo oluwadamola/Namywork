@@ -1,0 +1,40 @@
+{"JobTitle":"Fashion Designer","JobPrice":"5000","Description":"My work is exceptional","Instruction":"null","ImageUrl":"null","UserId":"1","CategoryId":"1","LocationId":"1"}
+
+{"JobTitle":"Ponzi Scheme","JobPrice":"50000","Description":"My work is exceptional","Instruction":"null","ImageUrl":"null","UserId":"1","CategoryId":"7","LocationId":"2"}
+
+{"JobTitle":"Creative Writing","JobPrice":"10000","Description":"My work is exceptional","Instruction":"null","ImageUrl":"null","UserId":"1","CategoryId":"10","LocationId":"1"}
+
+{"JobTitle":"Article Writing","JobPrice":"5000","Description":"My work is exceptional","Instruction":"null","ImageUrl":"null","UserId":"1","CategoryId":"10","LocationId":"1"}
+
+{"JobTitle":"Proof Reading","JobPrice":"15000","Description":"My work is exceptional","Instruction":"null","ImageUrl":"null","UserId":"1","CategoryId":"10","LocationId":"4"}
+
+{"JobTitle":"WebSite Design","JobPrice":"20000","Description":"My work is exceptional","Instruction":"null","ImageUrl":"null","UserId":"1","CategoryId":"9","LocationId":"3"}
+
+{"JobTitle":"Logo Design","JobPrice":"10000","Description":"My work is exceptional","Instruction":"null","ImageUrl":"null","UserId":"1","CategoryId":"9","LocationId":"1"}
+
+{"JobTitle":"Graphic Design","JobPrice":"25000","Description":"My work is exceptional","Instruction":"null","ImageUrl":"null","UserId":"1","CategoryId":"9","LocationId":"2"}
+
+{"JobTitle":"Data Entry","JobPrice":"5000","Description":"My work is exceptional","Instruction":"null","ImageUrl":"null","UserId":"1","CategoryId":"10","LocationId":"1"}
+
+{"JobTitle":"Typing/Editing ","JobPrice":"5000","Description":"My work is exceptional","Instruction":"null","ImageUrl":"null","UserId":"1","CategoryId":"10","LocationId":"5"}
+
+{"JobTitle":"Cleaning Service","JobPrice":"5000","Description":"My work is exceptional","Instruction":"null","ImageUrl":"null","UserId":"1","CategoryId":"2","LocationId":"1"}
+
+{"JobTitle":"Film Production","JobPrice":"55000","Description":"My work is exceptional","Instruction":"null","ImageUrl":"null","UserId":"1","CategoryId":"2","LocationId":"1"}
+
+
+
+http://localhost:14704/home/template/index
+
+select * from Users
+select * from Profiles
+select * from services
+
+select * from userroles
+select * from roles
+select * from Categories
+select * from Locations
+
+--insert userroles values(1,1)
+
+

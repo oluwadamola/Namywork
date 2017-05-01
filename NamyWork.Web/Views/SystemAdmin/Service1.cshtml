@@ -1,0 +1,108 @@
+﻿<!-- BEGIN PAGE BAR -->
+<div class="page-bar">
+    <ul class="page-breadcrumb">
+        <li>
+            <a href="#">Home</a>
+            <i class="fa fa-circle"></i>
+        </li>
+        <li>
+            <a ui-sref="services.list">Services</a>
+            <i class="fa fa-circle"></i>
+        </li>
+        <li>
+            <span>Service</span>
+            <i class="fa fa-circle"></i>
+        </li>
+        <li>
+            <span>{{model.Service.ServiceId}}</span>
+        </li>
+    </ul>
+</div>
+
+<div>
+    <div class="col-xs-6">
+        <h1 class="page-title">
+            <i class="fa fa-pencil font-purple-studio"></i> Contributions
+        </h1>
+    </div>
+    <div class="col-xs-6">
+        <div class="page-actions">
+        </div>
+    </div>
+</div>
+
+
+
+<div class="col-md-12">
+    <!-- BEGIN PROFILE SIDEBAR -->
+    <div class="profile-sidebar">
+        <!-- PORTLET MAIN -->
+        <div class="portlet light profile-sidebar-portlet bordered">
+            <!-- SIDEBAR USERPIC -->
+            <div class="profile-userpic">
+                <img ng-src="?s=150" ng-show="model.User.ImageUrl" class="img-responsive ng-hide" src="?s=150">
+                <img src="/content/Images/default-user.png" ng-hide="model.User.ImageUrl" class="img-responsive">
+            </div>
+            <!-- END SIDEBAR USERPIC -->
+            <!-- SIDEBAR USER TITLE -->
+            <div class="profile-usertitle">
+                <div class="profile-usertitle-name ng-binding"> admin admin </div>
+                <div class="profile-usertitle-job ng-binding">  </div>
+            </div>
+            <p>&nbsp;</p>
+            <!-- END SIDEBAR USER TITLE -->
+            <!-- SIDEBAR MENU -->
+            <div class="profile-usermenu">
+                <ul class="nav">
+                    <li ui-sref-active="active">
+                        <a ui-sref="profile.overview" href="#!/profile/overview">
+                            <i class="icon-home"></i> Overview
+                        </a>
+                    </li>
+                    <li ui-sref-active="active" class="active">
+                        <a ui-sref="profile.account" href="#!/profile/account">
+                            <i class="icon-user"></i> Account
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- END MENU -->
+        </div>
+
+        <!-- END PORTLET MAIN -->
+    </div>
+    <!-- END BEGIN PROFILE SIDEBAR -->
+    <!-- BEGIN PROFILE CONTENT -->
+    <div class="profile-content view-frame ng-scope" >
+        <div class="row ng-scope">
+            <div class="col-lg-12">
+                <div class="portlet light bordered">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Job Title</th>
+                                <th>Descriptione</th>
+                                <th>Instructions</th>
+                                <th>ImageUrl</th>
+                                <th>Job Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="overflow">
+                                <td>{{model.Service.JobTitle || "N/A"}}</td>
+                                <td>{{model.Service.Description || "N/A"}}</td>
+                                <td>{{model.Service.Instructions || "N/A"}}</td>
+                                <td>{{model.Service.ImageUrl || "N/A"}}</td>
+                                <td>{{model.Service.JobPrice || "N/A"}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+                <!-- END PORTLET -->
+            </div>
+
+        </div>
+    </div>
+    <!-- END PROFILE CONTENT -->
+</div>

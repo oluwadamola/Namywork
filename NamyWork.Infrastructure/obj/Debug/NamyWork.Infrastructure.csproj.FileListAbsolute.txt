@@ -1,0 +1,4 @@
+C:\Users\bekky\Documents\Visual Studio 2015\Projects\NamyWork\NamyWork.Infrastructure\bin\Debug\NamyWork.Infrastructure.dll
+C:\Users\bekky\Documents\Visual Studio 2015\Projects\NamyWork\NamyWork.Infrastructure\bin\Debug\NamyWork.Infrastructure.pdb
+C:\Users\bekky\Documents\Visual Studio 2015\Projects\NamyWork\NamyWork.Infrastructure\obj\Debug\NamyWork.Infrastructure.dll
+C:\Users\bekky\Documents\Visual Studio 2015\Projects\NamyWork\NamyWork.Infrastructure\obj\Debug\NamyWork.Infrastructure.pdb

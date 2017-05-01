@@ -1,0 +1,13 @@
+C:\Users\bekky\Documents\Visual Studio 2015\Projects\NamyWork\NamyWork.Core\bin\Debug\NamyWork.Core.dll.config
+C:\Users\bekky\Documents\Visual Studio 2015\Projects\NamyWork\NamyWork.Core\bin\Debug\NamyWork.Core.dll
+C:\Users\bekky\Documents\Visual Studio 2015\Projects\NamyWork\NamyWork.Core\bin\Debug\NamyWork.Core.pdb
+C:\Users\bekky\Documents\Visual Studio 2015\Projects\NamyWork\NamyWork.Core\bin\Debug\EntityFramework.dll
+C:\Users\bekky\Documents\Visual Studio 2015\Projects\NamyWork\NamyWork.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bekky\Documents\Visual Studio 2015\Projects\NamyWork\NamyWork.Core\bin\Debug\NamyWork.Data.dll
+C:\Users\bekky\Documents\Visual Studio 2015\Projects\NamyWork\NamyWork.Core\bin\Debug\Operation.dll
+C:\Users\bekky\Documents\Visual Studio 2015\Projects\NamyWork\NamyWork.Core\bin\Debug\NamyWork.Data.pdb
+C:\Users\bekky\Documents\Visual Studio 2015\Projects\NamyWork\NamyWork.Core\bin\Debug\EntityFramework.xml
+C:\Users\bekky\Documents\Visual Studio 2015\Projects\NamyWork\NamyWork.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bekky\Documents\Visual Studio 2015\Projects\NamyWork\NamyWork.Core\obj\Debug\NamyWork.Core.csprojResolveAssemblyReference.cache
+C:\Users\bekky\Documents\Visual Studio 2015\Projects\NamyWork\NamyWork.Core\obj\Debug\NamyWork.Core.dll
+C:\Users\bekky\Documents\Visual Studio 2015\Projects\NamyWork\NamyWork.Core\obj\Debug\NamyWork.Core.pdb
